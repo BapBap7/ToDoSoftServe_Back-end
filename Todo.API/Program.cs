@@ -11,7 +11,6 @@ builder.Services.AddDbContext<ToDoDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection"));
 });
 
-
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
