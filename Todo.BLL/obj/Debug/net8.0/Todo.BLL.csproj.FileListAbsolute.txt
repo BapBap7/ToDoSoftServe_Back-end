@@ -10,3 +10,7 @@ C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.Web
 C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\refint\Todo.BLL.dll
 C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.pdb
 C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\ref\Todo.BLL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\bin\Debug\net8.0\Todo.DAL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\bin\Debug\net8.0\Todo.DAL.pdb
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.csproj.AssemblyReference.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.csproj.CopyComplete

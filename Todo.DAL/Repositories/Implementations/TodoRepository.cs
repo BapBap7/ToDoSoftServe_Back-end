@@ -4,13 +4,10 @@ using Todo.DAL.Repositories.Interfaces;
 
 namespace Todo.DAL.Repositories.Implementations;
 
-public class TodoRepository
+internal class TodoRepository : RepositoryBase<TodoE>, ITodoRepository
 {
-    internal class UserRepository : RepositoryBase<TodoE>, ITodoRepository
+    public TodoRepository(ToDoDbContext context)
+        : base(context)
     {
-        public UserRepository(ToDoDbContext context)
-            : base(context)
-        {
-        }
     }
 }

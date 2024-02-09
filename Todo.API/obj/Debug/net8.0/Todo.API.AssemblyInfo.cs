@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Todo.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17022e0b9b4cbcc91dcd15427235fa83962c6078")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e72b49fcbe2f709ed5f17c99e57b140385cbfb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todo.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todo.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

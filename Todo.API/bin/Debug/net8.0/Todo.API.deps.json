@@ -893,6 +893,9 @@
         }
       },
       "Todo.BLL/1.0.0": {
+        "dependencies": {
+          "Todo.DAL": "1.0.0"
+        },
         "runtime": {
           "Todo.BLL.dll": {}
         }
