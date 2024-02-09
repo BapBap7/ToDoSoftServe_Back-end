@@ -1,0 +1,12 @@
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\bin\Debug\net8.0\Todo.BLL.deps.json
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\bin\Debug\net8.0\Todo.BLL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\bin\Debug\net8.0\Todo.BLL.pdb
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.AssemblyInfoInputs.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.AssemblyInfo.cs
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.sourcelink.json
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\refint\Todo.BLL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\Todo.BLL.pdb
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.BLL\obj\Debug\net8.0\ref\Todo.BLL.dll

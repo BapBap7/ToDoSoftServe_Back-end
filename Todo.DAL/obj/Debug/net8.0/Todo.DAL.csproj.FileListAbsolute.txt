@@ -1,0 +1,15 @@
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\bin\Debug\net8.0\Todo.DAL.deps.json
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\bin\Debug\net8.0\Todo.DAL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\bin\Debug\net8.0\Todo.DAL.pdb
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.csproj.AssemblyReference.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.AssemblyInfoInputs.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.AssemblyInfo.cs
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.sourcelink.json
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\refint\Todo.DAL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.pdb
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\ref\Todo.DAL.dll
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\bin\Debug\net8.0\Todo.DAL.runtimeconfig.json
+C:\Users\Complukter\Desktop\Work\Programming\TodoSoftServe\TodoBack-end\Todo.WebAPI\Todo.DAL\obj\Debug\net8.0\Todo.DAL.genruntimeconfig.cache
