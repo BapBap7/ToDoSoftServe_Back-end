@@ -22,11 +22,10 @@ internal class GetAllTodosHandler : IRequestHandler<GetAllTodosQuery, Result<IEn
     {
         try
         {
-            Console.WriteLine("N2");
             var todos = await _repositoryWrapper.TodoRepository.GetAllAsync(
-                selector: todo => todo, // This is a simple identity selector, essentially selecting the todo as is
-                predicate: null, // No filtering, so passing null
-                include: null // No related entities to include, so passing null
+                selector: todo => todo, 
+                predicate: null, 
+                include: null 
             );
             var todoDto = _mapper.Map<IEnumerable<TodoDefaultDTO>>(todos);
             return Result.Ok(todoDto);

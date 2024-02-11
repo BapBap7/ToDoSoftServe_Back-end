@@ -16,10 +16,12 @@ public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
         _dbContext = context;
     }
 
-    public T Create(T entity)
+    public async Task<T> CreateAsync(T entity)
     {
-        return _dbContext.Set<T>().Add(entity).Entity;
+        var tmp = await _dbContext.Set<T>().AddAsync(entity);
+        return tmp.Entity;
     }
+
 
     public void Delete(T entity)
     {

@@ -6,7 +6,7 @@ using Todo.BLL.MediatR.ResultVariations;
 namespace Todo.API.Controllers;
 
 [ApiController]
-[Route("server/[controller]")]
+[Route("api/[controller]/[action]")]
 public class BaseController : ControllerBase
 {
     private IMediator? _mediator;
