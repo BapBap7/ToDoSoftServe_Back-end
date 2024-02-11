@@ -1,23 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Todo.BLL.Interfaces.Todo;
+using Todo.BLL.MediatR.Todo.GetAll;
 
-namespace Todo.WebAPI.Controllers;
+namespace Todo.API.Controllers;
 
 
 [Route("server/[controller]")]
 public class TodoController : BaseController
 {
-    private readonly ITodoService _todoService; // Assume ITodoService is the interface for your BLL service
-
-    public TodoController(ITodoService todoService)
-    {
-        _todoService = todoService;
-    }
     
     [HttpGet("/GetTodos")]
     public async Task<IActionResult> GetAllTodos()
     {
-        var todos = await _todoService.GetAllTodosAsync();
-        return Ok(todos);
+        Console.WriteLine("N");
+        return HandleResult(await Mediator.Send(new GetAllTodosQuery()));
     }
 }

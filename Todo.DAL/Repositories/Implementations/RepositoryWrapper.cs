@@ -3,7 +3,7 @@ using Todo.DAL.Repositories.Interfaces;
 
 namespace Todo.DAL.Repositories.Implementations;
 
-public class RepositoryWrapper : IrepositoryWrapper
+public class RepositoryWrapper : IRepositoryWrapper
 {
     private readonly ToDoDbContext _toDoDbContext;
     private ITodoRepository _todoRepository;

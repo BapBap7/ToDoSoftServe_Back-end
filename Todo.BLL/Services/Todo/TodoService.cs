@@ -6,9 +6,13 @@ using Todo.DAL.Repositories.Interfaces;
 
 namespace Todo.BLL.Services.Todo;
 
+// Add mapper (or do this with mediator)
+
 public class TodoService : ITodoService
 {
     private readonly ITodoRepository _todoRepository;
+    
+    private readonly IRepositoryWrapper _repositoryWrapper;
 
     public TodoService(ITodoRepository todoRepository)
     {
@@ -19,34 +23,8 @@ public class TodoService : ITodoService
     {
         return await _todoRepository.GetFirstOrDefaultAsync(todo => todo.Id == id);
     }
-    
-    public async Task<IEnumerable<TodoDefaultDTO>> GetAllTodosAsync()
-    {
-        // Assuming _todoRepository is an instance of your RepositoryBase class configured for TodoE entities
-        var todoEntities = await _todoRepository.GetAllAsync(
-            selector: entity => entity // This will return IEnumerable<TodoE>
-        );
 
-        // Check if todoEntities is null and return an empty IEnumerable<TodoDTO> if true
-        if (todoEntities == null) return Enumerable.Empty<TodoDefaultDTO>();
-
-        // Map each TodoE entity to a TodoDTO
-        var todoDtos = todoEntities.Select(entity => new TodoDefaultDTO
-        {
-            Id = entity.Id,
-            Title = entity.Title,
-            Status = entity.Status,
-            Description = entity.Description,
-            StartDate = entity.StartDate,
-            EndDate = entity.EndDate,
-            Priority = entity.Priority
-            // Map other properties as needed
-        });
-
-        return todoDtos;
-    }
-    
-    public async Task<TodoDefaultDTO> CreateTodoAsync(TodoDTO todoDto)
+    public async Task<TodoDefaultDTO> CreateTodoAsync(TodoDefaultDTO todoDto)
     {
         var todoEntity = new TodoE
         {
@@ -82,7 +60,7 @@ public class TodoService : ITodoService
         return true;
     }
 
-    public async Task<TodoDefaultDTO> UpdateTodoAsync(int id, TodoDTO todoDto)
+    public async Task<TodoDefaultDTO> UpdateTodoAsync(int id, TodoDefaultDTO todoDto)
     {
         var todoEntity = await _todoRepository.GetFirstOrDefaultAsync(todo => todo.Id == id);
         if (todoEntity == null) return null;

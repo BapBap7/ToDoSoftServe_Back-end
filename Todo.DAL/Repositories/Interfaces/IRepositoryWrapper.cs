@@ -1,6 +1,6 @@
 ﻿namespace Todo.DAL.Repositories.Interfaces;
 
-public interface IrepositoryWrapper
+public interface IRepositoryWrapper
 {
     
     ITodoRepository TodoRepository { get; }
