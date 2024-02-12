@@ -12,13 +12,13 @@ namespace Todo.API.Controllers;
 public class TodoController : BaseController
 {
     
-    [HttpGet("/GetTodos")]
+    [HttpGet]
     public async Task<IActionResult> GetAllTodos()
     {
         return HandleResult(await Mediator.Send(new GetAllTodosQuery()));
     }
 
-    [HttpPost("/CreateTodo")]
+    [HttpPost]
     public async Task<IActionResult> CreateTodo([FromBody] TodoDefaultDTO todoDTO)
     {
         return HandleResult(await Mediator.Send(new CreateTodoCommand(todoDTO)));
