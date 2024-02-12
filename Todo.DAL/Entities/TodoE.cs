@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Todo.DAL.Enums;
 
 namespace Todo.DAL.Entities;
 
@@ -15,7 +16,7 @@ public class TodoE
     
     [Required]
     [MaxLength(50)]
-    public string Status { get; set; }
+    public TodoStatusEnum Status { get; set; }
     
     [Required]
     [MaxLength(150)]

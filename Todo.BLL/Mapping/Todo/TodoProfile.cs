@@ -9,6 +9,5 @@ public class TodoProfile : Profile
     public TodoProfile()
     {
         CreateMap<TodoE, TodoDefaultDTO>().ReverseMap();
-        CreateMap<TodoE, TodoDefaultDTO>();
     }
 }
