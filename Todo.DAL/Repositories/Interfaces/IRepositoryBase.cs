@@ -6,7 +6,7 @@ namespace Todo.DAL.Repositories.Interfaces;
 
 public interface IRepositoryBase<T> where T : class
 {
-    T Create(T entity);
+    Task<T> CreateAsync(T entity);
     
     EntityEntry<T> Update(T entity);
     
