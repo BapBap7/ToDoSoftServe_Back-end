@@ -24,7 +24,7 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdQuery, Result<TodoD
 
         if (job is null)
         {
-            string exceptionMessege = $"No job found by entered Id - {request.todoId}";
+            string exceptionMessege = $"No todo found by entered Id - {request.todoId}";
             Console.WriteLine(exceptionMessege);
             return Result.Fail(exceptionMessege);
         }

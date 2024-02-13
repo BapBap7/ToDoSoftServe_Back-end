@@ -25,7 +25,7 @@ public class UpdateJobHandler : IRequestHandler<UpdateTodoCommand, Result<TodoDe
             await _repositoryWrapper.TodoRepository.GetFirstOrDefaultAsync(x => x.Id == request.todo.Id);
         if (existedTodo is null)
         {
-            string exMessage = $"No job found by entered Id - {request.todo.Id}";
+            string exMessage = $"No todo found by entered Id - {request.todo.Id}";
             Console.WriteLine(exMessage);
             return Result.Fail(exMessage);
         }
