@@ -22,7 +22,7 @@ public class ChangeTodoStatusHandler :
         var todo = await _repositoryWrapper.TodoRepository.GetFirstOrDefaultAsync(j => j.Id == request.todoChangeStatusDto.Id);
         if (todo is null)
         {
-            string exMessage = $"No job found by entered Id - {request.todoChangeStatusDto.Id}";
+            string exMessage = $"No todo found by entered Id - {request.todoChangeStatusDto.Id}";
             Console.WriteLine(exMessage);
             return Result.Fail(exMessage);
         }

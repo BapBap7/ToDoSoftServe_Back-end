@@ -19,7 +19,7 @@ public class DeleteJobHandler : IRequestHandler<DeleteTodoCommand, Result<int>>
             await _repositoryWrapper.TodoRepository.GetFirstOrDefaultAsync(x => x.Id == request.id);
         if (todoToDelete is null)
         {
-            string exMessage = $"No job found by entered Id - {todoToDelete.Id}";
+            string exMessage = $"No todo found by entered Id - {todoToDelete.Id}";
             Console.WriteLine(exMessage);
             return Result.Fail(exMessage);
         }
